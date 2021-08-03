@@ -1,0 +1,32 @@
+{
+  "name": "rollup-babel-transform-runtime",
+  "version": "1.0.0",
+  "private": "true",
+  "browserslist": "defaults, ie >= 11",
+  "description": "bare minimum rollup/babel boilerplate for supporting async/await in ie11",
+  "main": "rollup.config.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreinstein/rollup-babel-transform-runtime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mreinstein/rollup-babel-transform-runtime/issues"
+  },
+  "homepage": "https://github.com/mreinstein/rollup-babel-transform-runtime#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.9",
+    "@babel/runtime-corejs3": "^7.14.9",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.55.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
